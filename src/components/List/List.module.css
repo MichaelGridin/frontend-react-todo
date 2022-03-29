@@ -1,0 +1,32 @@
+.list {
+  padding: 0;
+}
+
+.listH3 {
+  margin-left: 16px;
+}
+
+.shoppingItem {
+  background-color: #f9fafb;
+  padding: 0.6em 1.3em;
+  font-size: 16px;
+  border-radius: 0;
+  font-weight: bold;
+  display: flex;
+  /* margin-bottom: 16px; */
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 18px;
+  margin-left: 18px;
+  border-top: 1px solid #d1d5db;
+  /* border-bottom: 1px solid #d1d5db; */
+}
+
+.shoppingItem:last-child {
+  border-bottom: 1px solid #d1d5db;
+}
+
+.shoppingItem {
+  padding-left: 0;
+}

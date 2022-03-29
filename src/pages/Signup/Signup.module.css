@@ -1,0 +1,110 @@
+body {
+  background-color: #f9fafb;
+  width: 100vw;
+  margin: 0;
+  height: 100vh;
+}
+header {
+  display: flex;
+  background-color: lightskyblue;
+  flex-direction: row;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerSpan {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  background-color: #f9fafb;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40vw;
+  row-gap: 5px;
+}
+
+input {
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+}
+
+.submit {
+  background-color: #4f46e5;
+  color: #fff;
+  height: 38px;
+}
+
+#error {
+  background-color: red;
+  color: white;
+}
+
+.mainH1 {
+  margin-bottom: 32px;
+  margin-top: 106px;
+}
+
+.inlineDiv {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.signupLink {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainH1 {
+    font-size: x-large;
+  }
+
+  .signupLink {
+    font-size: small;
+  }
+
+  .checkboxSpan {
+    font-size: small;
+  }
+
+  .form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .form {
+    width: 80%;
+  }
+}

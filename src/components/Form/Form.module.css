@@ -1,0 +1,64 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 74px;
+  padding: 0 18px;
+}
+
+.inputContainer {
+  background: white;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  width: 40vw;
+}
+
+.inputField {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 12px;
+}
+
+.inputButton {
+  margin-right: 32px;
+  background: #cecece;
+  border-radius: 100px;
+  color: black;
+  width: 64px;
+  height: 24px;
+  border: none;
+  padding: 2px, 12px, 2px, 12px;
+}
+
+.clicked {
+  margin-right: 32px;
+  background: rgb(255, 32, 32, 0.4);
+  border-radius: 100px;
+  color: black;
+  width: 64px;
+  height: 24px;
+  border: none;
+  padding: 2px, 12px, 2px, 12px;
+}
+
+.createbutton {
+  background: #4f46e5;
+  color: white;
+  padding: 0.6em 1.3em;
+  font-size: 16px;
+  border-radius: 0.5em;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 12px;
+  border-color: #4f46e5;
+}
+
+#item {
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 0.5em;
+}

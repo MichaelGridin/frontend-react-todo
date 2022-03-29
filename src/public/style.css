@@ -1,0 +1,39 @@
+* {
+  background-color: unset;
+}
+
+body {
+  background-color: #f9fafb;
+  min-height: 100vh;
+  display: flex;
+  /* align-items: start;
+    justify-items: center; */
+  margin: 0;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root {
+  background-color: #f9fafb;
+  min-height: 100vh;
+  display: flex;
+  /* align-items: start;
+    justify-items: center; */
+  margin: 0;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .circle {
+  border-radius: 100px;
+  width: 64px;
+  height: 24px;
+  background: #cecece;
+  display: inline-block;
+  text-align: center;
+  font-weight: 200;
+} */
+
+/* .modal-icon {} */

@@ -1,0 +1,16 @@
+.h1todo {
+  display: flex;
+  /* justify-content: center; */
+  margin-bottom: 2em;
+  margin-top: 61px;
+}
+
+.todoList {
+}
+
+.h1todo {
+  justify-self: left;
+  margin-left: 18px;
+  margin-bottom: 22px;
+  margin-top: 106px;
+}
